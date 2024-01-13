@@ -1,0 +1,209 @@
+h1{
+    text-align: center;
+    padding-right: 90px ;
+    margin-top: 100px;
+}
+html, body {
+    margin: 0;
+    padding-right:20;
+    margin-left:3000px;
+    height:100%;
+    background-attachment: fixed;
+    /*background-image: url('./Untitled\ design.jpg');*/ /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    /*background-size: cover; *//* This ensures that the background image covers the entire body */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    margin: 0; /* Remove default body margin */
+    font-family: 'Arial', sans-serif; /* Set a default font family for the body */
+    color: #f0f0f0; /* Set a default text color */
+    background-size: 1300px 600px;
+}
+
+/* Add additional styles for other elements if needed */
+h1 {
+    color: #f5f2f2; /* Customize the heading color */
+}
+
+.streams {
+    list-style-type: square;
+    margin-bottom:10px;
+    margin-top:40px;
+    
+}
+.streams li{
+   
+    margin-bottom:30px;
+}
+.science {
+    list-style-type: square;
+    margin-top:20px;
+}
+.science li{
+    margin-bottom:30px;
+}
+.arts {
+    list-style-type: square;
+    margin-bottom:10px;
+    margin-top:40px;
+}
+.arts li{
+    margin-bottom:30px;
+}
+.technical {
+    list-style-type: square;
+    margin-bottom:10px;
+    margin-top:40px;
+}
+.technical li{
+    margin-bottom:30px;
+}
+.vocational {
+    list-style-type: square;
+    margin-bottom:10px;
+    margin-top:40px;
+}
+.vocational li{
+    margin-bottom:30px;
+}
+.commerce {
+    list-style-type: square;
+    margin-bottom:10px;
+    margin-top:40px;
+}
+.commerce li{
+    margin-bottom:30px;
+}
+a {
+    text-align: start;
+    text-decoration: none; /* Remove the default underline on links */
+    color: #f0f0f0; /* Customize the link color */
+}
+
+/* Add more styles as needed */
+
+body{
+    background-color: rgb(230, 175, 246);
+}
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color:/* #F6B17A ;*/rgba(52, 152, 219, 0.5) ;
+            display: grid;
+            justify-content: center;
+            align-items: left;
+            height: 100vh;
+            margin: 20;
+        }
+
+        .loading-container {
+            text-align: center;
+        }
+
+        .loading-icon {
+            font-size: 48px;
+            color: #6b47ee;
+            animation: spin 2s linear infinite;
+        }
+
+        .site-info {
+            margin-top: 150px;
+            text-align: center;
+            margin-left: 25px;
+            width:100%;
+        }
+        .site-info img {
+            width:50%;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #526fbd;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: #146fdb;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #f9f9;
+        }
+        
+        .dropdown-arrow {
+            cursor: pointer;
+        }
+h2, p {
+            text-align: start;
+           
+        }
+        .logo{
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 1.0;
+            filter:brightness(1.0);
+            filter: contrast(0.9);
+            filter: saturate(1.0);
+        }
+        .logo img{
+            width: 250px; /* Adjust the width of the image as needed */
+            height: auto;
+            margin-top: 20px;
+            margin-left:30px;
+        }
+        .tagline{
+            position: absolute;
+            top: 0;
+            margin-left:1000px;
+            margin-top: 20px;
+            margin-right: 10px; /* Adjust the margin for positioning */
+            color:#0d0d0ed0 ;
+            white-space: nowrap;
+            font-size:20px;
+            font-style: italic;
+        }
+        section {
+            padding: 30px 60px;
+            background-color: /* #b95d12;*//* #2d5fc4d0;*//* Primary color with transparency */ #146fdb;
+            margin-top: 40px;
+            margin-bottom:40px;
+        }
+        footer {
+            
+            text-align: center;
+            background-color: /*#b95d12;*/ rgba(52, 152, 219, 0.8);/*  Primary color with transparency */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+               /* position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                top:50;*/
+                /*background-color: rgba(52, 152, 219, 0.8); Footer background color */
+                color: #fff; /* Footer text color */
+                padding: 0px;
+        }
+#headings{
+    margin-top:10px;
+    height:2%;
+}
+#headings h1 {
+    /* Style for the heading inside the #headings section */
+    color: #333; /* Change the color to your preference */
+    font-size: 24px; /* Change the font size to your preference */
+    text-align: center;
+}
